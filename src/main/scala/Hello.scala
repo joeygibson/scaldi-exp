@@ -18,7 +18,7 @@ class Hello(implicit inj: Injector) {
   def sayGreeting = {
     val greeter = inject [MessageService]
 
-    println(greeter.getGreetMessage("Chris"))
+    println(greeter.getGreetMessage("Joey"))
   }
 }
 
